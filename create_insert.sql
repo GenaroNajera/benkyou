@@ -1,0 +1,90 @@
+DROP TABLE IF EXISTS kyouiku1;
+
+CREATE TABLE kyouiku1 (
+  id INTEGER PRIMARY KEY,
+  kanji TEXT,
+  meaning TEXT,
+  onyomi TEXT,
+  kunyomi TEXT
+);
+
+INSERT INTO kyouiku1 (kanji, meaning, onyomi, kunyomi) VALUES ('一', 'one', 'ichi, itsu', 'hito-tsu');
+INSERT INTO kyouiku1 (kanji, meaning, onyomi, kunyomi) VALUES ('二', 'two', 'ni, ji', 'futa-tsu');
+INSERT INTO kyouiku1 (kanji, meaning, onyomi, kunyomi) VALUES ('三', 'three', 'san', 'mit-tsu');
+INSERT INTO kyouiku1 (kanji, meaning, onyomi, kunyomi) VALUES ('四', 'four', 'shi', 'yot-tsu, yon');
+INSERT INTO kyouiku1 (kanji, meaning, onyomi, kunyomi) VALUES ('五', 'five', 'go', 'itsu-tsu');
+INSERT INTO kyouiku1 (kanji, meaning, onyomi, kunyomi) VALUES ('六', 'six', 'roku', 'mut-tsu');
+INSERT INTO kyouiku1 (kanji, meaning, onyomi, kunyomi) VALUES ('七', 'seven', 'shichi', 'nana-tsu, nana');
+INSERT INTO kyouiku1 (kanji, meaning, onyomi, kunyomi) VALUES ('八', 'eight', 'hachi', 'yat-tsu');
+INSERT INTO kyouiku1 (kanji, meaning, onyomi, kunyomi) VALUES ('九', 'nine', 'ku, kyuu', 'kokono-tsu');
+INSERT INTO kyouiku1 (kanji, meaning, onyomi, kunyomi) VALUES ('十', 'ten', 'juu', 'tou');
+INSERT INTO kyouiku1 (kanji, meaning, onyomi, kunyomi) VALUES ('百', 'hundred', 'hyaku', 'momo');
+INSERT INTO kyouiku1 (kanji, meaning, onyomi, kunyomi) VALUES ('千', 'thousand', 'sen', 'chi');
+INSERT INTO kyouiku1 (kanji, meaning, onyomi, kunyomi) VALUES ('上', 'top, above', 'jou', 'ue');
+INSERT INTO kyouiku1 (kanji, meaning, onyomi, kunyomi) VALUES ('下', 'bottom, below', 'ka, ge', 'shita, shimo, moto');
+INSERT INTO kyouiku1 (kanji, meaning, onyomi, kunyomi) VALUES ('左', 'left', 'sa', 'hidari');
+INSERT INTO kyouiku1 (kanji, meaning, onyomi, kunyomi) VALUES ('右', 'right', 'u, yuu', 'migi');
+INSERT INTO kyouiku1 (kanji, meaning, onyomi, kunyomi) VALUES ('中', 'inside, middle', 'chuu, juu', 'naka');
+INSERT INTO kyouiku1 (kanji, meaning, onyomi, kunyomi) VALUES ('大', 'large', 'dai, tai', 'ou-kii, ou');
+INSERT INTO kyouiku1 (kanji, meaning, onyomi, kunyomi) VALUES ('小', 'small', 'shou', 'chii-sai, ko, o');
+INSERT INTO kyouiku1 (kanji, meaning, onyomi, kunyomi) VALUES ('月', 'month, moon', 'gatsu, getsu', 'tsuki');
+INSERT INTO kyouiku1 (kanji, meaning, onyomi, kunyomi) VALUES ('日', 'day, sun', 'nichi, jitsu', 'hi, ka');
+INSERT INTO kyouiku1 (kanji, meaning, onyomi, kunyomi) VALUES ('年', 'year', 'nen', 'toshi');
+INSERT INTO kyouiku1 (kanji, meaning, onyomi, kunyomi) VALUES ('早', 'early', 'sou, sa', 'haya-i');
+INSERT INTO kyouiku1 (kanji, meaning, onyomi, kunyomi) VALUES ('木', 'tree', 'moku, boku', 'ki');
+INSERT INTO kyouiku1 (kanji, meaning, onyomi, kunyomi) VALUES ('林', 'woods', 'rin', 'hayashi');
+INSERT INTO kyouiku1 (kanji, meaning, onyomi, kunyomi) VALUES ('山', 'mountain', 'san', 'yama');
+INSERT INTO kyouiku1 (kanji, meaning, onyomi, kunyomi) VALUES ('川', 'river', 'sen', 'kawa');
+INSERT INTO kyouiku1 (kanji, meaning, onyomi, kunyomi) VALUES ('土', 'soil', 'to, do', 'tsuchi');
+INSERT INTO kyouiku1 (kanji, meaning, onyomi, kunyomi) VALUES ('空', 'sky, empty', 'kuu', 'sora, a-ku, kara');
+INSERT INTO kyouiku1 (kanji, meaning, onyomi, kunyomi) VALUES ('田', 'rice field', 'den', 'da, ta');
+INSERT INTO kyouiku1 (kanji, meaning, onyomi, kunyomi) VALUES ('天', 'heaven, sky', 'ten', 'ame, ama');
+INSERT INTO kyouiku1 (kanji, meaning, onyomi, kunyomi) VALUES ('生', 'living, birth, raw', 'sei, shou', 'i-kiru, u-mu, nama');
+INSERT INTO kyouiku1 (kanji, meaning, onyomi, kunyomi) VALUES ('花', 'flower', 'ka', 'hana');
+INSERT INTO kyouiku1 (kanji, meaning, onyomi, kunyomi) VALUES ('草', 'grass', 'sou', 'kusa');
+INSERT INTO kyouiku1 (kanji, meaning, onyomi, kunyomi) VALUES ('虫', 'insect', 'chuu', 'mushi');
+INSERT INTO kyouiku1 (kanji, meaning, onyomi, kunyomi) VALUES ('犬', 'dog', 'ken', 'inu');
+INSERT INTO kyouiku1 (kanji, meaning, onyomi, kunyomi) VALUES ('人', 'person', 'jin, nin', 'hito');
+INSERT INTO kyouiku1 (kanji, meaning, onyomi, kunyomi) VALUES ('名', 'name', 'mei, myou', 'na');
+INSERT INTO kyouiku1 (kanji, meaning, onyomi, kunyomi) VALUES ('女', 'female', 'jo, nyo', 'onna');
+INSERT INTO kyouiku1 (kanji, meaning, onyomi, kunyomi) VALUES ('男', 'male', 'dan, nan', 'otoko');
+INSERT INTO kyouiku1 (kanji, meaning, onyomi, kunyomi) VALUES ('子', 'child', 'shi, su', 'ko');
+INSERT INTO kyouiku1 (kanji, meaning, onyomi, kunyomi) VALUES ('目', 'eye', 'moku', 'me');
+INSERT INTO kyouiku1 (kanji, meaning, onyomi, kunyomi) VALUES ('耳', 'ear', 'ji, ni', 'mimi');
+INSERT INTO kyouiku1 (kanji, meaning, onyomi, kunyomi) VALUES ('口', 'mouth', 'kou', 'kuchi');
+INSERT INTO kyouiku1 (kanji, meaning, onyomi, kunyomi) VALUES ('手', 'hand', 'shu', 'te');
+INSERT INTO kyouiku1 (kanji, meaning, onyomi, kunyomi) VALUES ('足', 'foot, suffice', 'soku', 'ashi, ta-riru');
+INSERT INTO kyouiku1 (kanji, meaning, onyomi, kunyomi) VALUES ('見', 'see', 'ken, gen', 'mi-ru');
+INSERT INTO kyouiku1 (kanji, meaning, onyomi, kunyomi) VALUES ('音', 'sound', 'on', 'ne, oto');
+INSERT INTO kyouiku1 (kanji, meaning, onyomi, kunyomi) VALUES ('力', 'power', 'riki, ryoku', 'chikara');
+INSERT INTO kyouiku1 (kanji, meaning, onyomi, kunyomi) VALUES ('気', 'spirit, air', 'ki, ke', 'iki');
+INSERT INTO kyouiku1 (kanji, meaning, onyomi, kunyomi) VALUES ('円', 'yen, circle', 'en', 'maru');
+INSERT INTO kyouiku1 (kanji, meaning, onyomi, kunyomi) VALUES ('入', 'enter', 'nyuu', 'hai-ru, i-ru');
+INSERT INTO kyouiku1 (kanji, meaning, onyomi, kunyomi) VALUES ('出', 'exit', 'shutsu', 'de-ru');
+INSERT INTO kyouiku1 (kanji, meaning, onyomi, kunyomi) VALUES ('立', 'stand up', 'ritsu', 'ta-tsu');
+INSERT INTO kyouiku1 (kanji, meaning, onyomi, kunyomi) VALUES ('休', 'rest', 'kyuu', 'yasu-mu');
+INSERT INTO kyouiku1 (kanji, meaning, onyomi, kunyomi) VALUES ('先', 'previous', 'sen', 'saki');
+INSERT INTO kyouiku1 (kanji, meaning, onyomi, kunyomi) VALUES ('夕', 'evening', 'seki', 'yuu');
+INSERT INTO kyouiku1 (kanji, meaning, onyomi, kunyomi) VALUES ('本', 'book', 'hon', 'moto');
+INSERT INTO kyouiku1 (kanji, meaning, onyomi, kunyomi) VALUES ('文', 'text', 'bun, mon', 'fumi');
+INSERT INTO kyouiku1 (kanji, meaning, onyomi, kunyomi) VALUES ('字', 'character', 'ji', 'aza');
+INSERT INTO kyouiku1 (kanji, meaning, onyomi, kunyomi) VALUES ('学', 'study', 'gaku', 'mana-bu');
+INSERT INTO kyouiku1 (kanji, meaning, onyomi, kunyomi) VALUES ('校', 'school', 'kou', 'kase');
+INSERT INTO kyouiku1 (kanji, meaning, onyomi, kunyomi) VALUES ('村', 'village', 'son', 'mura');
+INSERT INTO kyouiku1 (kanji, meaning, onyomi, kunyomi) VALUES ('町', 'town', 'chou', 'machi');
+INSERT INTO kyouiku1 (kanji, meaning, onyomi, kunyomi) VALUES ('森', 'forest', 'shin', 'mori');
+INSERT INTO kyouiku1 (kanji, meaning, onyomi, kunyomi) VALUES ('正', 'correct', 'sei, shou', 'tada-shii, masa');
+INSERT INTO kyouiku1 (kanji, meaning, onyomi, kunyomi) VALUES ('水', 'water', 'sui', 'mizu');
+INSERT INTO kyouiku1 (kanji, meaning, onyomi, kunyomi) VALUES ('火', 'fire', 'ka', 'hi');
+INSERT INTO kyouiku1 (kanji, meaning, onyomi, kunyomi) VALUES ('玉', 'jewel, ball', 'gyoku', 'tama');
+INSERT INTO kyouiku1 (kanji, meaning, onyomi, kunyomi) VALUES ('王', 'king', 'ou', 'kimi');
+INSERT INTO kyouiku1 (kanji, meaning, onyomi, kunyomi) VALUES ('石', 'stone', 'seki, koku', 'ishi');
+INSERT INTO kyouiku1 (kanji, meaning, onyomi, kunyomi) VALUES ('竹', 'bamboo', 'chiku', 'take');
+INSERT INTO kyouiku1 (kanji, meaning, onyomi, kunyomi) VALUES ('糸', 'thread', 'shi', 'ito');
+INSERT INTO kyouiku1 (kanji, meaning, onyomi, kunyomi) VALUES ('貝', 'shellfish', 'bai', 'kai');
+INSERT INTO kyouiku1 (kanji, meaning, onyomi, kunyomi) VALUES ('車', 'vehicle', 'sha', 'kuruma');
+INSERT INTO kyouiku1 (kanji, meaning, onyomi, kunyomi) VALUES ('金', 'gold, money', 'kin', 'kane, kana');
+INSERT INTO kyouiku1 (kanji, meaning, onyomi, kunyomi) VALUES ('雨', 'rain', 'u', 'ame, ama');
+INSERT INTO kyouiku1 (kanji, meaning, onyomi, kunyomi) VALUES ('赤', 'red', 'seki', 'aka');
+INSERT INTO kyouiku1 (kanji, meaning, onyomi, kunyomi) VALUES ('青', 'blue', 'sei, shou', 'ao');
+INSERT INTO kyouiku1 (kanji, meaning, onyomi, kunyomi) VALUES ('白', 'white', 'haku', 'shiro, shira');

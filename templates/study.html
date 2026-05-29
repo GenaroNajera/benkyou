@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Study | べんくょう！</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="card">
+    <div id="progress">0/0</div>
+    <a href="" target="_blank" title="Learn More" id="kanji"></a>
+
+    <div class="infoContainer">
+      <div id="info">
+        <div class="field">
+          <span class="header">Meaning: </span><span class="text" id="meaning"></span>
+        </div>
+        <div class="field">
+          <span class="header">Onyomi Reading: </span><span class="text" id="onyomi"></span>
+        </div>
+        <div class="field">
+          <span class="header">Kunyomi Reading: </span><span class="text" id="kunyomi"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="nav">
+    <button type="button" class="btn" id="prevBtn">Prev</button>
+    <button type="button" class="btn" id="revealBtn">Reveal</button>
+    <button type="button" class="btn" id="nextBtn">Next</button>
+  </div>
+
+  <script src="/static/study.js"></script>
+</body>
+</html>

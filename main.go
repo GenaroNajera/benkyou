@@ -24,9 +24,12 @@ func main() {
 	defer db.Close()
 
 	kanji := &database.Kanji{Db: db}
+	data := kanji.SelectAll()
 
-	router.GET("/", func(c *gin.Context) {
-		handlers.Home(c, kanji.SelectAll())
+	router.GET("/", handlers.Home)
+	router.GET("/study", handlers.Study)
+	router.GET("/api", func(c *gin.Context) {
+		handlers.Api(c, data)
 	})
 
 	router.Run("localhost:8080")
